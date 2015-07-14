@@ -1,0 +1,46 @@
+
+.wy-nav-side {
+  margin-top:50px !important;
+}
+
+.subsite_section{
+  height: 50px;
+  color: red;
+  float:left;
+  padding-left: 20px;
+  vertical-align: middle;
+  display:table-cell;
+}
+
+.subsite_link:not(.active_subsite){
+	color:red;
+}
+
+.subsite_link a:hover{
+	color:red;
+}
+
+.subsite_link.active_subsite{
+	color:blue;
+}
+
+.subsite_link{
+	vertical-align: middle;
+	margin: auto;
+	height: 100%;
+}
+
+.subsite_nav{
+	width: 100%;
+  height: 50px; 
+  background-color: black;
+  vertical-align:middle;
+  display: inline-block;
+  position: fixed;
+  top: 0px;
+  z-index: 2;
+}
+
+.wy-nav-content{
+	margin-top: 50px;
+}
